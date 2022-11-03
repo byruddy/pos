@@ -1,0 +1,20 @@
+{
+	"openapi": "3.0.3",
+	"info": {
+		"title": "POS RESTfull API",
+		"description": "API Spec for POS RESTfull API",
+		"version": "1.0.0"
+	},
+	"servers": [
+		{
+		  "url": "http://localhost:5000/api"
+		}
+	],
+	"paths": {
+		"/categories" : {},
+		"/categories:/categoryId" : {},
+		"/products" : {},
+		"/products/:productId" : {},
+	},
+	
+}
