@@ -11,10 +11,18 @@
 		}
 	],
 	"paths": {
-		"/categories" : {},
-		"/categories:/categoryId" : {},
+		"/categories" : {
+			"get" : {
+				
+			},
+			"post" : {}
+		},
+		"/categories:/categoryId" : {
+			"get" : {},
+			"put" : {},
+			"delete" : {}
+		},
 		"/products" : {},
-		"/products/:productId" : {},
-	},
-	
+		"/products/:productId" : {}
+	}
 }
